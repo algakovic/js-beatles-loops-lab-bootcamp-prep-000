@@ -23,7 +23,8 @@ function johnLennonFacts(lennon){
 
 function iLoveTheBeatles(n) {
  var proto = [];
-    do { proto.push("I love the Beatles!")
+    do { proto.push("I love the Beatles!") 
+    n++
     } while (n < 15)
     
   return proto
