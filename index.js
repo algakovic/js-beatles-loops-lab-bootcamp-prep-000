@@ -8,3 +8,25 @@ function theBeatlesPlay(arraymus,arrayinst){
   return music;
 }
     
+    
+function johnLennonFacts(lennon){
+  const shoutedFacts = [];
+  
+  let index = 0;
+  
+  while (index < lennon.length){
+    shoutedFacts.push(`${lennon[index]}!!!`)  
+    index++
+  }
+  return shoutedFacts
+}
+
+function iLoveTheBeatles(n) {
+ var proto = [];
+    do { proto.push("I love the Beatles!")
+    } while (n < 15)
+    
+  return proto
+  
+}
+
